@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background: #2B354F;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    background-image: url(../arquivos/imagens/pexels-veeterzy-114979.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.header img{
+    width: 150px;
+}
+
+.header a{
+    text-decoration: none;
+    background: #0B367F;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: 1s;
+}
+.header a:hover{
+    transition: 1s;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.apr{
+    padding: 15px;
+    margin: 5px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.434);
+}
+
+.opt1{
+    text-align: center;
+    color: white;
+}
+
+.flex img{
+    width: 60px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flex > div{
+    background: #FBFAFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.434);
+    flex: 1 1 200px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.flex a{
+    text-decoration: none;
+    color: black;
+}
+
+.menubaixo{
+    background: #FBFAFF;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.256);
+}
+
+.menubaixo img{
+    width: 30px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.menubaixo img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.select2{
+    background: rgba(0, 0, 0, 0.256);
+    border-radius: 20px;
+}
+
+.gus12{
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    overflow: scroll;
+}
+
+.gus12 > div{
+    text-align: center;
+    padding: 10px;
+}
+
+.capa21{
+    background-image: url(../arquivos/herois/pexels-lukas-669277.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.capa211{
+    background-image: url(../arquivos/herois/historia01.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.gus12 a{
+    margin-bottom: 0;
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.gus12 a:hover{
+    transition: all 2.s;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media(max-width: 600px){
+   /* .header{
+        width: auto;
+        margin: 15px;
+    }*/
+}
